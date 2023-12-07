@@ -10,20 +10,24 @@ import org.junit.jupiter.api.Test
 internal class Day07Test
 {
     private val input = """
-        TODO INPUT
+        32T3K 765
+        T55J5 684
+        KK677 28
+        KTJJT 220
+        QQQJA 483
     """.trimIndent().split("\n")
 
     @Test
     @DisplayName("Part 1")
     fun part1()
     {
-        Assertions.assertEquals(0, Day07().part1(input))
+        Assertions.assertEquals(6440, Day07().part1(input))
     }
 
     @Test
     @DisplayName("Part 2")
     fun part2()
     {
-        Assertions.assertEquals(0, Day07().part2(input))
+        Assertions.assertEquals(5905, Day07().part2(input))
     }
 }
